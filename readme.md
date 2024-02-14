@@ -4,7 +4,7 @@ wget https://code.dvc.org/get-started/code.zip
 unzip code.zip && rm -f code.zip
 dvc get https://github.com/iterative/dataset-registry \
           get-started/data.xml -o data/data.xml
-conda create --name dvc python=3.10
+conda create --name dvc python=3.10 -y
 conda activate dvc
 pip install -r src/requirements.txt
 dvc stage add -n prepare \
