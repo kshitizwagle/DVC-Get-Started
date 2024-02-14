@@ -1,0 +1,11 @@
+## ignore
+# dirs
+.idea/
+# files
+
+## do not ignore
+# dirs
+!.github/
+
+# files
+/model.pkl
